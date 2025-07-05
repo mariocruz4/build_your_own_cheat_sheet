@@ -7,10 +7,11 @@ img {
     height: 100px;
     width: auto;
     align-items: center;
+    margin: auto;
 }
 
 h1 {
-    display: inline-block;
+    display: block;
     text-align: center;
     font-weight: 700;
 }
