@@ -53,3 +53,8 @@ table {
     align-items: center;
     margin: 0 auto;
 }
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
