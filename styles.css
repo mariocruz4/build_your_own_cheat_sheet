@@ -2,6 +2,33 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#gato {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./resources/images/dislocao.jpeg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.7;
+    z-index: -1;
+    pointer-events: none;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+}
+
 img {
     display: block;
     height: 100px;
