@@ -23,6 +23,12 @@ body {
     pointer-events: none;
 }
 
+#example {
+    background-color: rgba(24, 25, 76, 1);
+    opacity: .8;
+    color: white;
+}
+
 main {
     position: relative;
     z-index: 1;
